@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --branco: hsl(0, 0%, 100%);
+    --Stone-100: hsl(30, 54%, 90%);
+    --Stone-150: hsl(30, 2%, 79%);
+    --Stone-600: hsl(30, 10%, 34%);
+    --Stone-900: hsl(24, 5%, 18%);
+    --Brown-800: hsl(14, 45%, 36%);
+    --Rose-800: hsl(332, 51%, 32%);
+    --Rose-50: hsl(330, 100%, 98%);
+}
+
+body {
+    font-family: 'Outfit';
+    text-align: left;
+    font-size: 1rem;
+    color: var(--Stone-600);
+}
+
+/* Início do cabeçalho */
+
+.cabecalho__titulo {
+    font-family: 'Young Serif';
+}
+
+.cabecalho__imagem {
+    width: 100vw;
+}
+
+.cabecalho__titulo {
+    font-weight: 400;
+    margin: 0.5em 1em;
+    color: var(--Stone-900);
+}
+
+.cabecalho__paragrafo {
+    margin: 2em;
+}
+
+/* Fim do cabeçalho */
+
+/* Início do principal */
+
+.conteudo {
+    margin: 0.6em;
+}
+.preparation-time {
+    color: var(--Rose-800);
+    margin-left: 3em;
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
+.conteudo__lista__preparation-time {
+    margin: 0 2em;
+    padding-left: 1.5em;
+    font-size: 1rem;
+}
+
+.conteudo__lista__item {
+    margin: 0.5em 0;
+    list-style-position: inside;
+}
+
+strong {
+    color: var(--Stone-600);
+}
+
+div.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.linha-horizontal {
+    width: 88%;
+    border: none;
+    border-top: 1px solid var(--Stone-150);
+    margin: 2em 0;
+}
+
+.conteudo__subtitulo {
+    color: var(--Brown-800);
+    font-family: 'Young Serif';
+    font-weight: 400;
+    margin: 0.5em 1em;
+}
+
+.conteudo__lista {
+    margin: 0 2em;
+    font-size: 1rem;
+}
+
+.lista__item {
+    margin: 0.5em 0;
+    list-style-position: inside;
+}
+
+ol.conteudo__lista {
+    margin: 0 2em;
+    padding-left: 1.5em;
+    font-size: 1rem;
+}
+
+li::marker {
+  color: var(--Brown-800);
+  font-weight: 800;
+}
+
+.section__nutrition {
+    margin: 0 0.3em;
+}
+
+.nutrition__paragrafo {
+    margin: 0.5em 1em;
+    font-size: 1rem;
+}

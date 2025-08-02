@@ -83,7 +83,7 @@ div.container {
     width: 88%;
     border: none;
     border-top: 1px solid var(--Stone-150);
-    margin: 2em 0;
+    margin: 1em 0;
 }
 
 .conteudo__subtitulo {
@@ -120,5 +120,23 @@ li::marker {
 
 .nutrition__paragrafo {
     margin: 0.5em 1em;
+    font-size: 1rem;
+}
+
+div.nutrition__paragrafo__grid {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    align-items: center;
+    text-align: left;
+}
+
+.nutrition__paragrafo__grid__nutriente {
+    margin-left: 3em;
+}
+
+.nutrition__paragrafo__grid__colorido {
+    margin-left: 3em;
+    color: var(--Brown-800);
+    font-weight: 700;
     font-size: 1rem;
 }
